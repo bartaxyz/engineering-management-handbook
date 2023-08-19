@@ -27,7 +27,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add VERSION.md
         git commit -m "Update version [ci skip]"
-        git push
+        git push https://${{ secrets.REPO_PAT }}@github.com/bartaxyz/engineering-management-handbook.git HEAD:main
 
     - name: Install Pandoc
       run: |
