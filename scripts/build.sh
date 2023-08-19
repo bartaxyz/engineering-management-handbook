@@ -14,17 +14,18 @@ mkdir -p ../dist/
 FILES=$(find ../book -type f -name '*.md' | sort)
 
 BOOK_TITLE="Engineering Leadership Handbook"
+EPUB_METADATA="../assets/epub-metadata.xml"
 
 # Build HTML version
 echo "Building HTML..."
-pandoc $FILES -s -o ../dist/bookname.html --metadata title="$BOOK_TITLE" --toc --toc-depth=2
+pandoc $FILES -s -o ../dist/engineering-leadership-handbook.html --metadata title="$BOOK_TITLE" --toc --toc-depth=2
 
 # Build PDF version (requires LaTeX for pandoc to generate PDFs)
 echo "Building PDF..."
-pandoc $FILES -s -o ../dist/bookname.pdf --metadata title="$BOOK_TITLE" --toc --toc-depth=2
+pandoc $FILES -s -o ../dist/engineering-leadership-handbook.pdf --metadata title="$BOOK_TITLE" --toc --toc-depth=2
 
 # Build EPUB version
 echo "Building EPUB..."
-pandoc $FILES -s -o ../dist/bookname.epub --metadata title="$BOOK_TITLE" --toc --toc-depth=2
+pandoc $FILES -s -o ../dist/engineering-leadership-handbook.epub --metadata title="$BOOK_TITLE" --toc --toc-depth=2 --epub-cover-image ../assets/images/front-cover.png --epub-metadata=$EPUB_METADATA
 
 echo "Build completed. Outputs available in dist/ directory."
