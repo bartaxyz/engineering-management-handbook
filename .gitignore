@@ -7,4 +7,4 @@
 .obsidian/app.json
 .DS_Store
 
-./dist
+dist/
