@@ -21,13 +21,12 @@ jobs:
       run: echo "::set-output name=version::$(date +%Y.%m.%d.%H.%M)"
 
     - name: Commit version
-      run: |
-        echo "${{ steps.get_version.outputs.version }}" > VERSION.md
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add VERSION.md
-        git commit -m "Update version [ci skip]"
-        git push https://${{ secrets.REPO_PAT }}@github.com/bartaxyz/engineering-management-handbook.git HEAD:main
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: ${{ github.actor }}
+        author_email: ${{ github.actor }}@users.noreply.github.com
+        message: "v${{ steps.get_version.outputs.version }}"
+        tag: "v${{ steps.get_version.outputs.version }}"
 
     - name: Install Pandoc
       run: |
