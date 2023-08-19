@@ -1,6 +1,10 @@
 
-# Leadership in Software Engineering
+# Engineering Management Handbook
+
 A comprehensive open-source book on leadership in software engineering. This repository not only houses the content but also the scripts and automation tools to generate various formats of the book (website, epub, physical book format, etc.).
+
+|<img width="640" alt="Square Mockup" src="https://github.com/bartaxyz/engineering-leadership/assets/4202010/b7461c54-474c-472b-95c7-3fd28409fe0f"> |
+| --- |
 
 ## Structure
 `/book`: Primary content of the book organized by sections or chapters.
