@@ -6,3 +6,5 @@
 .obsidian/appearance.json
 .obsidian/app.json
 .DS_Store
+
+./dist
