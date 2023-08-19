@@ -47,11 +47,3 @@ jobs:
         draft: false
         prerelease: false
         token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Upload Book to Release
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./dist/engineering-leadership-handbook.epub
-        asset_name: engineering-leadership-handbook-${{ steps.get_version.outputs.version }}.epub
-        asset_content_type: application/epub+zip
