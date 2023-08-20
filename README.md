@@ -7,11 +7,13 @@ An open-source book on leadership in software engineering. This repository not o
 | --- |
 
 ## Structure
-`/book`: Primary content of the book organized by sections or chapters.
-`/scripts`: Scripts used for tasks such as converting the book to different formats or linting.
-`/assets`: Global assets such as images, stylesheets, or other media referenced in the book.
-`/.github/workflows`: GitHub Action workflows for CI/CD purposes.
-`/dist`: Contains the built versions of the book in various formats.
+- [`/book`](/book): Primary content of the book organized by sections or chapters.
+- [`/scripts`](/scripts): Scripts used for tasks such as converting the book to different formats or linting.
+- [`/assets`](/assets): Global assets such as images, stylesheets, or other media referenced in the book.
+  - [`/assets/images`](/assets/images): Images used in the book.
+  - [`/assets/epub-metadata.xml`](/assets/epub-metadata.xml): Metadata for the epub format.
+- [`/.github/workflows`](/.github/workflows): GitHub Action workflows for CI/CD purposes.
+- `/dist`: Contains the built versions of the book in various formats _(automatically generated folder)_.
 
 ## Contribution Guidelines
 We welcome contributions! Whether you're fixing typos, suggesting improvements, or adding new content, your efforts are appreciated. Before contributing, please review our `STYLE_GUIDE.md` to ensure consistency and clarity across the book.
@@ -32,6 +34,11 @@ If you wish to build the book locally:
   ./scripts/build.sh
   ```
 4. Check the `/dist` directory for the generated formats.
+
+## Continuous Delivery
+This repository uses GitHub Actions to automatically build and publish the book as epub. The workflow is triggered on every push to the `main` branch. The workflow is defined in (`.github/workflows/build.yml`)[.github/workflows/build.yml].
+
+Versioning is done automatically by assembling the day & time of the build. For example, a build on August 19, 2023 at 1:47 PM would be versioned as `v2023.08.19.13.47`.
 
 ## License
 The license for this project is not yet determined. Please refer to the [license github issue](https://github.com/bartaxyz/engineering-leadership/issues/1) for more information.
