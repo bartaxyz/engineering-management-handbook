@@ -1,3 +1,5 @@
+# Engineering Management Handbook Style Guide
+
 Every reader of this book is encouraged to become a part of it as well. Either as a co-author, an editor, or in other ways. It's therefore essential to have a good style guide & quality standards in place, so that everyone's on the same page. This guide introduces some of the principles that the book is following.
 
 *As with the content, this guide is subject to change. Everything here is a part of discussion as well as any piece of content included in the book itself.*
