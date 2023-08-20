@@ -16,7 +16,7 @@ An open-source book on leadership in software engineering. This repository not o
 - `/dist`: Contains the built versions of the book in various formats _(automatically generated folder)_.
 
 ## Contribution Guidelines
-We welcome contributions! Whether you're fixing typos, suggesting improvements, or adding new content, your efforts are appreciated. Before contributing, please review our `STYLE_GUIDE.md` to ensure consistency and clarity across the book.
+We welcome contributions! Whether you're fixing typos, suggesting improvements, or adding new content, your efforts are appreciated. Before contributing, please review our [`STYLE_GUIDE.md`](/STYLE_GUIDE.md) to ensure consistency and clarity across the book.
 
 1. **Fork the Repository**: Start by forking this repository to your account.
 2. **Clone Your Fork**: Clone your fork to your local machine.
