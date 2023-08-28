@@ -1,9 +1,19 @@
+---
+title: Introduction
+---
 
 # Introduction
 
 Being an impactful engineering manager can be tough and sometimes vague. You'll be working in vastly different conditions. At one point in time, you'll be fighting mountains of technical debt, and at another, the main concern will be interpersonal conflicts. A manager's job can be so different in two different contexts that many will even have trouble understanding what you do in your day-to-day.
 
 That's the main problem this book is going to attempt to tackle. How to be the most impactful manager you can be, in any given situation that's thrust your way. It would be a lie to say that this book can give you a recipe for everything you'll encounter in your career. Nobody will ever give you that. Instead, this book will attempt to give you an opportunity to learn from others, in the same way the other people learned through their managers or peers before that.
+
+## Who is this book for?
+
+
+## How to read this book?
+
+Ideall,y 
 
 ## Why write a book, and why this format?
 

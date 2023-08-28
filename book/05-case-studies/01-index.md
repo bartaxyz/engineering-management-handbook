@@ -1,3 +1,6 @@
+---
+title: Case Studies
+---
 
 # Case Studies
 

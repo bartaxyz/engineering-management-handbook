@@ -1,3 +1,7 @@
+---
+title: To Code Or Not To Code
+description: Should engineering managers code? What are the benefits of coding? What are the downsides? How to balance coding with other responsibilities?
+---
 
 # To Code Or Not To Code
 
@@ -11,12 +15,8 @@ Believe it or not, there are many benefits you may get from getting personally i
 
 Now let's dive a litter deeper into the specific reasons & benefits of actively coding, as a manager.
 
-### Spotting Inefficiencies Firsthand
+1. **Spotting Inefficiencies Firsthand**
 
-When you get actively involved with the codebase, you'll be able to witness directly what's the delivery process like for the engineers. If there are any inefficiencies, you'll experience them firsthand.
+   When you get actively involved with the codebase, you'll be able to witness directly what's the delivery process like for the engineers. If there are any inefficiencies, you'll experience them firsthand.
 
-Especially if you get back to the codebase after some time of not coding, you can look at everything with very fresh eyes. If you're not already using onboarding process for spotting inefficiencies.
-
-
-
-
+   Especially if you get back to the codebase after some time of not coding, you can look at everything with very fresh eyes. If you're not already using onboarding process for spotting inefficiencies.

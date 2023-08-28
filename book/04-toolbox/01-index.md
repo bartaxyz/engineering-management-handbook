@@ -1,3 +1,6 @@
+---
+title: Toolbox
+---
 
 # An Engineering Manager's Toolbox
 
