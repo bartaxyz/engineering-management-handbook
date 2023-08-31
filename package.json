@@ -3,7 +3,11 @@
   "description": "An open-source book on leadership in software engineering. This repository not only houses the content but also the scripts and automation tools to generate various formats of the book (website, epub, physical book format, etc.).",
   "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -27,9 +31,12 @@
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.48.0",
     "eslint-config-next": "^13.4.19",
+    "gray-matter": "^4.0.3",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "remark-frontmatter": "^4.0.1",
     "typescript": "^5.2.2"
   },
   "devDependencies": {}
