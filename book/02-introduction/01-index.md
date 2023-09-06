@@ -13,7 +13,7 @@ That's the main problem this book is going to attempt to tackle. How to be the m
 
 ## How to read this book?
 
-Ideall,y 
+The book is structured to build on top of concepts that appear and are explained earlier in the book. Although, if you're already an experienced manager, perhaps you get the best value out of this book if you skip to whichever aspect of your work you want to focus on.
 
 ## Why write a book, and why this format?
 
